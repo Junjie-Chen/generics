@@ -25,3 +25,5 @@ class ArrayOfTypes<T> {
 const arrayOfNumbers = new ArrayOfTypes<number>([1, 2, 3]);
 
 const arrayOfStrings = new ArrayOfTypes<string>(['a', 'b', 'c']);
+
+console.log(arrayOfNumbers.get(0));
