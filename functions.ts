@@ -25,3 +25,5 @@ const arrayOfObjects = <T extends Logger>(collection: T[]): void => {
     item.log();
   }
 };
+
+arrayOfTypes([1, 2, 3]);
