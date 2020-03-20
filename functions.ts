@@ -10,7 +10,7 @@ const arrayOfStrings = (collection: string[]): void => {
   }
 };
 
-const arrayOfTypes = (collection): void => {
+const arrayOfTypes = <T>(collection: T[]): void => {
   for (let item of collection) {
     console.log(item);
   }
