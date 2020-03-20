@@ -16,4 +16,8 @@ class ArrayOfStrings {
 
 class ArrayOfTypes {
   constructor(public collection) {}
+
+  get(index: number) {
+    return this.collection[index];
+  }
 }
