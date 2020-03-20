@@ -20,7 +20,7 @@ interface Logger {
   log(): void;
 }
 
-const arrayOfObjects = <T>(collection: T[]): void => {
+const arrayOfObjects = <T extends Logger>(collection: T[]): void => {
   for (let item of collection) {
     item.log();
   }
