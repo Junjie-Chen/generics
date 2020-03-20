@@ -21,3 +21,5 @@ class ArrayOfTypes<T> {
     return this.collection[index];
   }
 }
+
+const arrayOfNumbers = new ArrayOfTypes([1, 2, 3]);
