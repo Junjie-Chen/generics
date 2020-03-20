@@ -16,6 +16,10 @@ const arrayOfTypes = <T>(collection: T[]): void => {
   }
 };
 
+interface Logger {
+  log(): void;
+}
+
 const arrayOfObjects = <T>(collection: T[]): void => {
   for (let item of collection) {
     item.log();
