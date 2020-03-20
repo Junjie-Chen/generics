@@ -14,10 +14,10 @@ class ArrayOfStrings {
   }
 }
 
-class ArrayOfTypes {
-  constructor(public collection) {}
+class ArrayOfTypes<T> {
+  constructor(public collection: T[]) {}
 
-  get(index: number) {
+  get(index: number): T {
     return this.collection[index];
   }
 }
