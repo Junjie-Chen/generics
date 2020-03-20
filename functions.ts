@@ -15,3 +15,9 @@ const arrayOfTypes = <T>(collection: T[]): void => {
     console.log(item);
   }
 };
+
+const arrayOfObjects = (collection): void => {
+  for (let item of collection) {
+    item.log();
+  }
+};
