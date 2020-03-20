@@ -22,4 +22,4 @@ class ArrayOfTypes<T> {
   }
 }
 
-const arrayOfNumbers = new ArrayOfTypes([1, 2, 3]);
+const arrayOfNumbers = new ArrayOfTypes<number>([1, 2, 3]);
