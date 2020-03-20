@@ -13,3 +13,7 @@ class ArrayOfStrings {
     return this.collection[index];
   }
 }
+
+class ArrayOfTypes {
+  constructor(public collection) {}
+}
