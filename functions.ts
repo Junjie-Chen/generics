@@ -30,7 +30,7 @@ arrayOfTypes<number>([1, 2, 3]);
 
 arrayOfTypes<string>(['a', 'b', 'c']);
 
-arrayOfObjects([
+arrayOfObjects<{ log(): void }>([
   {
     log() {
       console.log(1);
