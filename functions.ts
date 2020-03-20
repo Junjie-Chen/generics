@@ -3,3 +3,9 @@ const arrayOfNumbers = (collection: number[]): void => {
     console.log(item);
   }
 };
+
+const arrayOfStrings = (collection: string[]): void => {
+  for (let item of collection) {
+    console.log(item);
+  }
+};
