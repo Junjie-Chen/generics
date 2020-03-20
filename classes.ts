@@ -5,3 +5,7 @@ class ArrayOfNumbers {
     return this.collection[index];
   }
 }
+
+class ArrayOfStrings {
+  constructor(public collection: string[]) {}
+}
