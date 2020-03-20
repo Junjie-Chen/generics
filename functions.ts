@@ -9,3 +9,9 @@ const arrayOfStrings = (collection: string[]): void => {
     console.log(item);
   }
 };
+
+const arrayOfTypes = (collection): void => {
+  for (let item of collection) {
+    console.log(item);
+  }
+};
