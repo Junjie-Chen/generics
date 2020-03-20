@@ -26,4 +26,4 @@ const arrayOfObjects = <T extends Logger>(collection: T[]): void => {
   }
 };
 
-arrayOfTypes([1, 2, 3]);
+arrayOfTypes<number>([1, 2, 3]);
